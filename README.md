@@ -1,1 +1,1 @@
-# Complejidad-algor-tmica-Estructuras-lineales
+# Complejidad-algoritmica-Estructuras-lineales
