@@ -6,10 +6,10 @@ class Pila:
         return self.items == []
 
     def apilar(self, item):
-        self.items.append(item)  # se agrega al final (arriba)
+        self.items.append(item)  
 
     def desapilar(self):
-        return self.items.pop()  # se quita el último (arriba)
+        return self.items.pop()  
 
     def tamano(self):
         return len(self.items)
@@ -18,6 +18,6 @@ p = Pila()
 p.apilar(1)
 p.apilar(2)
 p.apilar(3)
-print(p.items)       # [1, 2, 3]
-print(p.desapilar()) # 3 (último en entrar, primero en salir)
-print(p.items)       # [1, 2]
+print(p.items)       
+print(p.desapilar()) 
+print(p.items)
